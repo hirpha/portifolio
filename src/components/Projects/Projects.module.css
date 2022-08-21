@@ -1,0 +1,58 @@
+.Projects{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 30px;
+    flex-flow: column;
+}
+.ListOfProjects{
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.Project{
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    background: linear-gradient(90deg, rgb(1, 1, 7) 0%, rgb(24, 24, 97) 35%, rgb(7, 106, 187) 100%);
+    box-shadow: rgba(141, 7, 83, 0.2) 20px 50px 24px;
+    border-radius: 20px;
+}
+
+.Project img {
+    margin: 20px 20px  ;
+    width: 15%;
+    height: 60px;
+    border-radius: 10px;
+
+}
+.Project p,.TechUsed, .Project h1{
+    text-align: start;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    color: white;
+    font-size: 14px;
+}
+.Project h1,
+.TechUsed{
+    padding: 10px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+@media (min-width:800px){
+   
+    .ListOfProjects{
+        flex-flow: row;
+        margin-bottom: 20px;
+    }
+    
+    
+    
+   
+}

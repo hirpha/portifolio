@@ -1,0 +1,32 @@
+.Contact{
+    background-color: rgb(11, 8, 29);
+    width: 98vw;
+    margin-bottom: 0;
+    padding: 10px;
+}
+
+.Contact h2,
+.Contact p{
+    color: white;
+
+}
+
+
+.Contact a{
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+}
+.Contact li{
+    width: 100px;
+    margin: 10px auto;
+    text-align: center;
+    display:  flex;
+    flex-flow: row;
+    align-items: center;
+}
+.Contact img {
+    margin: 20px 20px  ;
+    width: 20px;
+    height: 20px;
+}

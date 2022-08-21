@@ -1,0 +1,103 @@
+.AboutMe{
+    width: 80%;
+    height: 120px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+    background: rgb(2,0,36);  
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+}
+
+.Profile{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    
+    border: 4px solid white;
+}
+.AboutMeBody{
+    display: flex;
+    flex-flow: column;
+    color: white;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+.AboutMeBody p, h2{
+    padding: 0;
+    margin: 0;
+}
+
+.MyJob{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 0;
+    margin: 0 auto;
+    border-left: 1px solid black;
+}
+.Header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.Dot{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 100px;
+    margin-top: 30px;
+    margin-left: -5px;
+    margin-bottom: 0;
+    padding: 0;
+}
+.MyJob p, .MyJob h1{
+    width: 100%;
+    margin-bottom: 0;
+    align-items: flex-start;
+    align-self: start;
+    margin-left: 20px;
+    text-align: start;
+    font-size: 13px;
+    color: rgb(21, 26, 31);
+}
+.MyJob h1{
+    font-size: 20px;
+    font-weight: 800;
+
+}
+.Tech{
+    margin-top: 20px;
+    background: rgb(13, 29, 18);
+    color: white;
+    padding: 10px;
+    margin-left: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+@media (min-width:600px){
+    .AboutMe{
+        width: 50%;
+    }
+    .Tech{
+        margin-top: 20px;
+        background: rgb(13, 29, 18);
+        color: white;
+        padding: 10px;
+        margin-left: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .MyJob{
+        width: 40%;
+    }
+}
+@media (min-width:490){
+    
+    .Tech{
+        width: 350px;
+    }
+}
