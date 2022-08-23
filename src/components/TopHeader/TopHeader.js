@@ -1,6 +1,6 @@
 import React from 'react'
 import CoverPhoto from '../../assets/images/hirpha.jpg'
-import Profile from '../../assets/images/profile.jpg'
+import Profile from '../../assets/images/h.JPG'
 import Styles from "./TopHeader.module.css"
 const TopHeader = () => {
   return (
