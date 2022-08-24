@@ -1,5 +1,5 @@
 import React from 'react'
-import Profile from '../../assets/images/h.JPG'
+import Profile from '../../assets/images/h.jpg'
 import Styles from './MainBody.module.css'
 
 const AboutMe = () => {
