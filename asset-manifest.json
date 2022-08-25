@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portifolio/static/css/main.42840343.css",
+    "main.js": "/portifolio/static/js/main.81bc0801.js",
+    "static/js/787.be55e6d0.chunk.js": "/portifolio/static/js/787.be55e6d0.chunk.js",
+    "static/media/hirpha.jpg": "/portifolio/static/media/hirpha.19a7da4fa3b59ede1ac6.jpg",
+    "static/media/h.jpg": "/portifolio/static/media/h.dc1021fcd33a8aebd558.jpg",
+    "static/media/profile.jpg": "/portifolio/static/media/profile.f56b9fbffb7d13ab4720.jpg",
+    "static/media/myplace.jpg": "/portifolio/static/media/myplace.eb5b3d9a07d0fc9a9b62.jpg",
+    "static/media/telemedicine.jpg": "/portifolio/static/media/telemedicine.00fa91d31424d9a3534c.jpg",
+    "static/media/linkedin.png": "/portifolio/static/media/linkedin.2d5b4510a376e9e4a130.png",
+    "static/media/github.png": "/portifolio/static/media/github.ff2648078e819f6a9666.png",
+    "static/media/facebok.png": "/portifolio/static/media/facebok.5bf892ea2cf37544b2ef.png",
+    "static/media/burgerlogo.png": "/portifolio/static/media/burgerlogo.ec69c7f65e6d7565759f.png",
+    "static/media/elpc.jpg": "/portifolio/static/media/elpc.f99c2d0b7970189815ea.jpg",
+    "index.html": "/portifolio/index.html",
+    "main.42840343.css.map": "/portifolio/static/css/main.42840343.css.map",
+    "main.81bc0801.js.map": "/portifolio/static/js/main.81bc0801.js.map",
+    "787.be55e6d0.chunk.js.map": "/portifolio/static/js/787.be55e6d0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42840343.css",
+    "static/js/main.81bc0801.js"
+  ]
+}
